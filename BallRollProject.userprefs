@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Player.js">
+    <Files>
+      <File FileName="Assets\Main.js" Line="4" Column="1" />
+      <File FileName="Assets\MainMenu.js" Line="67" Column="2" />
+      <File FileName="Assets\PlatformerController.js" Line="194" Column="79" />
+      <File FileName="Assets\Player.js" Line="22" Column="1" />
+      <File FileName="Assets\Bubble.js" Line="40" Column="3" />
+      <File FileName="Assets\Levels\Level1.js" Line="1" Column="1" />
+      <File FileName="Assets\Levels\Level3.js" Line="21" Column="26" />
+      <File FileName="Assets\Levels\Level2.js" Line="50" Column="37" />
+      <File FileName="Assets\PlatformerPlayerAnimation.js" Line="44" Column="2" />
+      <File FileName="Assets\NonSpacialAudio.js" Line="17" Column="2" />
+      <File FileName="Assets\Shooter.js" Line="26" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

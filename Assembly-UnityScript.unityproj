@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4382DBD2-2A10-B0BD-9F34-41BDB2692035}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_1;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Bubble.js" />
+     <Compile Include="Assets\Colorer.js" />
+     <Compile Include="Assets\Levels\Level1.js" />
+     <Compile Include="Assets\Levels\Level2.js" />
+     <Compile Include="Assets\Levels\Level3.js" />
+     <Compile Include="Assets\Main.js" />
+     <Compile Include="Assets\MainMenu.js" />
+     <Compile Include="Assets\NonSpacialAudio.js" />
+     <Compile Include="Assets\PlatformerController.js" />
+     <Compile Include="Assets\PlatformerPlayerAnimation.js" />
+     <Compile Include="Assets\Player.js" />
+     <Compile Include="Assets\Shooter.js" />
+     <Compile Include="Assets\TiltBehavior.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraFocus.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraScrolling.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraTargetAttributes.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Character Controls\PlatformerPushBodies.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\DeathTrigger.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\LevelAttributes.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Moving Platform\MovingPlatformEffects.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Moving Platform\PlatformMover.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\PlatformTarget.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Spaceship\Spaceship.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\SpawnPoint.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\CollisionParticleEffect.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\CollisionSoundEffect.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\Foot.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\SpecialEffectHandler.js" />
+     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\StopEmittingAfterDelay.js" />
+     <None Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Shaders\Particle Add (Overlay).shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

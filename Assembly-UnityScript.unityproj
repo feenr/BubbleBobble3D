@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4382DBD2-2A10-B0BD-9F34-41BDB2692035}</ProjectGuid>
+	<ProjectGuid>{88BFAABE-1C46-F1BF-7A09-4909AA34B2BB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_1;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -44,36 +44,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bubble.js" />
-     <Compile Include="Assets\Colorer.js" />
+     <Compile Include="Assets\Components\Bubble.js" />
+     <Compile Include="Assets\Components\Colorer.js" />
+     <Compile Include="Assets\Components\Main.js" />
+     <Compile Include="Assets\Components\MainMenu.js" />
+     <Compile Include="Assets\Components\NonSpacialAudio.js" />
+     <Compile Include="Assets\Components\PlatformerController.js" />
+     <Compile Include="Assets\Components\PlatformerPlayerAnimation.js" />
+     <Compile Include="Assets\Components\Player.js" />
+     <Compile Include="Assets\Components\Shooter.js" />
      <Compile Include="Assets\Levels\Level1.js" />
      <Compile Include="Assets\Levels\Level2.js" />
      <Compile Include="Assets\Levels\Level3.js" />
-     <Compile Include="Assets\Main.js" />
-     <Compile Include="Assets\MainMenu.js" />
-     <Compile Include="Assets\NonSpacialAudio.js" />
-     <Compile Include="Assets\PlatformerController.js" />
-     <Compile Include="Assets\PlatformerPlayerAnimation.js" />
-     <Compile Include="Assets\Player.js" />
-     <Compile Include="Assets\Shooter.js" />
-     <Compile Include="Assets\TiltBehavior.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraFocus.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraScrolling.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Camera\CameraTargetAttributes.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Character Controls\PlatformerPushBodies.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\DeathTrigger.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\LevelAttributes.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Moving Platform\MovingPlatformEffects.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Moving Platform\PlatformMover.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\PlatformTarget.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\Spaceship\Spaceship.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\2D\SpawnPoint.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\CollisionParticleEffect.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\CollisionSoundEffect.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\Foot.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\SpecialEffectHandler.js" />
-     <Compile Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Scripts\Effects\StopEmittingAfterDelay.js" />
-     <None Include="Assets\TutorialAssets\2DGameplayTutorialProject\Assets\Shaders\Particle Add (Overlay).shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
